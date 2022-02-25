@@ -1,0 +1,108 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color:rgba(0, 0, 0, 0.596);
+    overflow: auto;
+  }
+  li {
+    float: left;
+    font-family:cursive;
+  }
+  li a.active {
+    background-color: rgb(23, 165, 137);
+    color: white;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+    background-color: #b9b7a4;
+    color:#333;
+  }
+  li a:active { /*Cuando da click en el mouse */
+    background-color:rgb(31, 236, 195);
+  }
+  body{
+  background-image: url("../img/madera.jpg");
+  background-size: cover;
+  }
+ h1{
+    font-family:Watterbite;
+    font-size:2.5em; 
+ }
+ h2{
+    font-family:Watterbite;
+    font-size:1.6em;
+    text-align: center; 
+ }
+ h3{
+    font-family:Watterbite;
+    font-size:1.5em;
+    text-align:center; 
+ }
+ p{
+     text-align: justify;
+     font-family:cursive
+ }
+ header,footer{
+    padding: 1em;
+    color: rgb(23, 165, 137);
+    background-color:rgba(255, 255, 255, 0.596);
+    text-align: center;
+}
+#link a{color: rgb(23, 165, 137);}
+article {
+    margin-top: 1em;
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.596);
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+@media screen and (max-width: 600px){
+    li.right,
+    li{float: none;}
+    video{ max-height: 301px; max-width: 430px;}
+}
+td{
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-family: Watterbite;
+    background-color: rgb(23, 165, 137);
+  }
+tr:nth-child(odd){background-color: rgb(23, 165, 137);}
+
+tr:hover {background-color: rgba(0, 0, 0, 0.596);}
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  li:last-child{
+    float: right;
+    }
+#div2{
+        text-align: center;
+        align-items: center;
+      
+}
+#imgf img{
+    height:300px; width:250px;
+}
+video{
+  height:640px; width:900px;
+}
